@@ -1,0 +1,35 @@
+plugins {
+  id 'java'
+}
+
+group 'at.fhv'
+version '1.0-SNAPSHOT'
+
+repositories {
+  mavenCentral()
+}
+
+ext {
+  junitVersion = '5.9.2'
+}
+
+sourceCompatibility = '11'
+targetCompatibility = '11'
+
+tasks.withType(JavaCompile) {
+  options.encoding = 'UTF-8'
+}
+
+dependencies {
+
+  testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+  testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+
+  implementation group: 'org.graphstream', name: 'gs-core', version: '1.3'
+  implementation group: 'org.graphstream', name: 'gs-ui', version: '1.3'
+  implementation group: 'org.graphstream', name: 'gs-algo', version: '1.3'
+  implementation group: 'org.openjfx', name: 'javafx-swing', version: '22'
+}
+
+test {
+useJUnitPlatform()}

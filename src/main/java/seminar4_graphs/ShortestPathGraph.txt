@@ -1,0 +1,9 @@
+Alice Bob 4
+Alice Charlie 5
+Bob Charlie 11
+Bob Emma 7
+Charlie Emma 3
+Emma David 13
+Bob David 9
+David Franz 2
+Emma Franz 6

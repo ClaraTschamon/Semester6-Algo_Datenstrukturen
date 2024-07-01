@@ -1,0 +1,8 @@
+Alice Bob 5
+Alice Charlie 3
+Alice Lukas 2
+Martin Alice 1
+Bob David 2
+Charlie David 4
+Charlie Emma 1
+Emma Frank 6

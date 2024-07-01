@@ -1,0 +1,8 @@
+Alice Bob 1
+Alice David 1
+Alice Charlie 1
+Bob David 1
+Bob Charlie 1
+Charlie Lukas 1
+David Lukas 1
+David Charlie 1
